@@ -1,13 +1,6 @@
-import os
-import json
-from pathlib import Path
-from dotenv import load_dotenv
-import streamlit as st
-import io
-import pandas as pd
-import urllib.request
 
-from pinata import pin_file_to_ipfs, pin_json_to_ipfs, convert_data_to_json
+import streamlit as st
+
 
 # cert editing imports
 from PIL import Image, ImageDraw, ImageFont
